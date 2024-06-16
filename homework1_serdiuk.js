@@ -35,3 +35,6 @@ null == ''
 
 false && true || true
 // Результат: true
+
+false && (false || true)
+// Результат: false
