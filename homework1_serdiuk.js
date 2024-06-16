@@ -32,3 +32,6 @@ null == ''
 
 	(+ null == false) < 1
 // Результат: false
+
+false && true || true
+// Результат: true
