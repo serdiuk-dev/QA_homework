@@ -37,4 +37,7 @@ false && true || true
 // Результат: true
 
 false && (false || true)
+	// Результат: false
+
+	(+null == false) < 1 ** 5
 // Результат: false
